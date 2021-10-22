@@ -11,14 +11,14 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <aspectj.version>1.9.6</aspectj.version>
+        <my.junit5.version>5.8.1</my.junit5.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
-            <version>5.8.0</version>
+            <version>${my.junit5.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
@@ -26,6 +26,6 @@
             <artifactId>selenium-java</artifactId>
             <version>4.0.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
     </dependencies>
+         
 </project>
