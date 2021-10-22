@@ -15,15 +15,12 @@ public class FirstTestCase {
         System.out.println("FirstTest");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.de");
-        driver.close();
+        driver.quit();
     }
-
 
     @Test
     @Tag("MySecondTestcase")
     public void secondTestCase(){
         System.out.println("SecondTest");
     }
-
-
 }
